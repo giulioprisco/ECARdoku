@@ -4,7 +4,7 @@
 
 ECARdoku.m is a MATLAB script that simulates an interactive puzzle based on Wolfram's reversible Rule 37 elementary cellular automaton (ECA) with periodic boundaries. It precomputes all possible m x n grids evolving from every initial row configuration (2^n possibilities) and allows users to apply constraints (clues) to filter down to a unique solution board. The puzzle is akin to Sudoku but governed by cellular automata rules.
 
-This script serves as the foundational logic for the web-based game 37Rdoku, which adapts the concept into an interactive browser puzzle with visual elements.
+This script serves as the foundational logic for the web-based game [37Rdoku](https://giulioprisco.github.io/37Rdoku/), which adapts the concept into an interactive browser puzzle with visual elements.
 
 This script has been developed with AI assistance from Grok.
 
@@ -61,7 +61,7 @@ For a 4x4 board (set n=4, m=4):
 
 ## Related
 
-- The web game 37Rdoku is directly inspired by this script, offering a browser-based version with clickable cells, difficulties, hints, and visual rule explanations.
+- The web game [37Rdoku](https://giulioprisco.github.io/37Rdoku/) is directly inspired by this script, offering a browser-based version with clickable cells, difficulties, hints, and visual rule explanations.
 - Based on concepts from Stephen Wolfram's *A New Kind of Science*.
 
 ## License
